@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            .row::after {
+                content: "";
+                clear: both;
+                display: table;
+              }
+            [class*="col-"] {
+                float: left;
+                padding: 15px;
+              }
+
+              .col-1 {width: 8.33%;}
+              .col-2 {width: 16.66%;}
+              .col-3 {width: 25%;}
+              .col-4 {width: 33.33%;}
+              .col-5 {width: 41.66%;}
+              .col-6 {width: 50%;}
+              .col-7 {width: 58.33%;}
+              .col-8 {width: 66.66%;}
+              .col-9 {width: 75%;}
+              .col-10 {width: 83.33%;}
+              .col-11 {width: 91.66%;}
+              .col-12 {width: 100%;}
+              
+              @media only screen and (max-width: 768px) {
+                /* For mobile phones: */
+                [class*="col-"] {
+                  width: 100%;
+                }
+              }
+            body{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'Montserrat', sans-serif;
+                text-transform: capitalize;
+                background-color: #F5F5F5;
+                background-image: url("asset/bg2.jpg");
+                background-blend-mode:lighter;
+                background-size: cover;
+            }
+            #header{
+                width: 100%;
+                padding: 10px;
+                text-align: center;
+                border: 2px solid #1E9624;
+                background-color: #ffff;
+            }
+            #back{
+                width: 80%;
+                margin: 50px auto;
+            }
+            #base{
+                float: left;
+                text-align: center;
+            }
+            .base{
+                width: 80%;
+                margin: 50px auto;
+                padding: 15px;
+                border: 2px solid #1E9624;
+                background-color: #ffff;
+            }
+            .zoom{
+                transition: transform 0.8s ease,box-shadow 0.8s ease;
+            }
+            #base:hover .zoom{
+                transform: scale(1.1);
+                box-shadow: 5px 10px 8px #888888;
+            }
+            .base-login{
+                width: 80%;
+                margin: 50px auto;
+                line-height: 2.9;
+                background-color: #ffff;
+                box-shadow: -8px -8px 0px #1E9624;
+                border: 1px solid #1E9624;
+            }
+            .change{
+                transition: transform 0.8s ease;
+            }
+            input[type=text],input[type=password]{
+                width: 80%;
+                height: 20px;
+                padding: 15px 10px;
+                font-size: 15px;
+                border: none;
+                background: rgba(136, 126, 126, 0.04);
+                border: 2px solid rgba(0, 0, 0, 0.02);
+                text-align: center;
+            }
+            input[type=text]:focus,input[type=password]:focus{
+                border: 2px solid #1E9624;
+            }
+            input[type=submit]:hover{
+                color: #1E9624;
+                border: 2px solid #1E9624;
+                background: #ffffff;
+            }
+            input[type=submit]{
+                border: none;
+                margin: 10px;
+                padding: 7px;
+                background: #1E9624;
+                color: #ffffff;
+                width: 30%;
+                transition: border 0.8s ease,color 0.8s,background 0.8s;
+            }
+            a{
+                text-decoration: none;
+            }
+            p{
+                display: relative;
+            }
+            p a{
+                font-size: 15px;
+                color: red;
+                text-decoration: underline;
+            }
+            .footer{
+                width: 100%;
+                background-color: white;
+                height: 50px;
+                border: 2px solid #1E9624;
+            }
+            .left{
+                width: 50%;
+                float: left;
+                padding: 12px;
+            }
+            .right{
+                width: 50%;
+                float: left;
+                padding-top: 7px;
+                padding-right: 8px;
+                text-align: right;
+            }
+            .footer img{
+                width: 30px;
+                border-radius: 50%;
+                transition: 0.3s;
+            }
+            .footer img:hover{
+                border-radius: 0;
+                width: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="back">
+            <div id="header">
+                "Food Banking For The Needy"<br>*choose your contribution by click section below
+            </div>
+            <div class="row">
+                <div id="base" class="col-4">
+                    <a href="volunteer.jsp">
+                        <div class="base zoom">
+                            <img src="asset/charity.png" style="max-width:90%;height: auto;"><br><p>VOLUNTEER</p>
+                        </div>
+                    </a>
+                </div>
+                <div id="base" class="col-4">
+                    <a href="beneficial.jsp">
+                        <div class="base zoom">
+                            <img src="asset/heart.png" style="max-width:90%;height: auto;"><br><p>BENEFECIAIRIES</p>
+                        </div>
+                    </a>
+                </div>
+                <div id="base" class="col-4">
+                    <div class="base-login change">
+                        <img src="asset/faf.png" style="max-width:50%;height: auto;">
+                        <form action="index" method="post">
+                            <input type="text" name="username" placeholder="Username"><br>
+                            <input type="password" name="password" placeholder="Password"><br>
+                            <input type="submit" value="Login">
+                            <p><a href="forget_password.jsp">Forget Password?</a></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="left">
+                FoodAidFoundation2019 | mfikri | rafie | naim
+                </div>
+                <div class="right">
+                <a href="https://www.facebook.com/foodaidfoundation"><img src="asset/facebook.png"></a>
+                <a href="https://www.instagram.com/FoodAidFoundation/"><img src="asset/instagram.png"></a>
+                <a href="https://www.foodaidfoundation.org/"><img src="asset/website.png"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
