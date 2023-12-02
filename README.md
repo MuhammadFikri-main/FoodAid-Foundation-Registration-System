@@ -10,14 +10,14 @@
     Ending Hunger ​Nourishing Hope
     <br/>
     <br/>
-    <a href="https://github.com/Muhammad Fikri/FoodAid Foundation Registration System"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/MuhammadFikri-main/FoodAid Foundation Registration System"><strong>Explore the docs »</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/Muhammad Fikri/FoodAid Foundation Registration System">View Demo</a>
+    <a href="https://github.com/MuhammadFikri-main/FoodAid Foundation Registration System">View Demo</a>
     .
-    <a href="https://github.com/Muhammad Fikri/FoodAid Foundation Registration System/issues">Report Bug</a>
+    <a href="https://github.com/MuhammadFikri-main/FoodAid Foundation Registration System/issues">Report Bug</a>
     .
-    <a href="https://github.com/Muhammad Fikri/FoodAid Foundation Registration System/issues">Request Feature</a>
+    <a href="https://github.com/MuhammadFikri-main/FoodAid Foundation Registration System/issues">Request Feature</a>
   </p>
 </p>
 
