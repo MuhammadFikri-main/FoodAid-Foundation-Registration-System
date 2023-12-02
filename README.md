@@ -21,7 +21,7 @@
   </p>
 </p>
 
-![Downloads](https://img.shields.io/github/downloads/Muhammad Fikri/FoodAid Foundation Registration System/total) ![Contributors](https://img.shields.io/github/contributors/Muhammad Fikri/FoodAid Foundation Registration System?color=dark-green) ![Issues](https://img.shields.io/github/issues/Muhammad Fikri/FoodAid Foundation Registration System) ![License](https://img.shields.io/github/license/Muhammad Fikri/FoodAid Foundation Registration System) 
+![Downloads](https://img.shields.io/github/downloads/MuhammadFikri-main/FoodAid-Foundation-Registration-System/total) ![Contributors](https://img.shields.io/github/contributors/MuhammadFikri-main/FoodAid-Foundation-Registration-System?color=dark-green) ![Issues](https://img.shields.io/github/issues/MuhammadFikri-main/FoodAid-Foundation-Registration-System) ![License](https://img.shields.io/github/license/MuhammadFikri-main/FoodAid-Foundation-Registration-System) 
 
 ## Table Of Contents
 
